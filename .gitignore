@@ -1,0 +1,18 @@
+# Gradle 관련
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+!gradle/wrapper/gradle-wrapper.properties
+
+# IntelliJ IDEA
+.idea/
+*.iml
+
+# 운영체제 및 환경 관련 파일
+*.log
+*.tmp
+*.bak
+.DS_Store
+
+# 환경 설정 파일(보안을 위해 제외)
+application-dev.properties
